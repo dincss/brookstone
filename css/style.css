@@ -1,0 +1,508 @@
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('../font/Century Gothic.eot');
+  src: url('../font/Century Gothic.eot?#iefix') format('embedded-opentype'), url('../font/Century Gothic.woff2') format('woff2'), url('../font/Century Gothic.woff') format('woff'), url('../font/Century Gothic.svg#Century Gothic') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-F003;
+}
+@font-face {
+  font-family: 'Century Gothic Bold';
+  src: url('../font/Century Gothic Bold.eot');
+  src: url('../font/Century Gothic Bold.eot?#iefix') format('embedded-opentype'), url('../font/Century Gothic Bold.woff2') format('woff2'), url('../font/Century Gothic Bold.woff') format('woff'), url('../font/Century Gothic Bold.svg#Century Gothic Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-F003;
+}
+@font-face {
+  font-family: 'Amazing Grotesk';
+  src: url('../font/Amazing Grotesk Light.eot');
+  src: url('../font/Amazing Grotesk Light.eot?#iefix') format('embedded-opentype'), url('../font/Amazing Grotesk Light.woff2') format('woff2'), url('../font/Amazing Grotesk Light.woff') format('woff'), url('../font/Amazing Grotesk Light.svg#Amazing Grotesk Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-02DC;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  max-width: 1000px;
+  width: 100%;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 162px;
+  font-family: 'Century Gothic Bold';
+  margin-left: -60px;
+}
+.heading_block {
+  white-space: nowrap;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.pad {
+  width: 100%;
+}
+header {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  color: #fff;
+  opacity: 0;
+  -webkit-transition: all 3s;
+  -o-transition: all 3s;
+  transition: all 3s;
+}
+.logo_block {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.menu_block {
+  max-width: 630px;
+  width: 100%;
+}
+.menu_block ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.menu_block ul li {
+  display: inline-block;
+}
+.menu_block ul li a {
+  font-family: 'Century Gothic';
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: color .5s;
+  -o-transition: color .5s;
+  transition: color .5s;
+}
+.menu_block ul li a:hover {
+  color: #ABF174;
+}
+.menu_block h1 {
+  color: rgba(255, 255, 255, 0.2);
+  font-family: 'Century Gothic Bold';
+}
+.menu_block_wrapper {
+  width: 100%;
+  margin-bottom: 70px;
+}
+.content_block {
+  max-width: 630px;
+  width: 100%;
+}
+header .heading_block_wrapper {
+  width: 100%;
+}
+header .heading_block_wrapper h1 {
+  color: rgba(255, 255, 255, 0.2);
+}
+header .content_block {
+  margin-top: 70px;
+}
+header .content_block p {
+  font-family: 'Century Gothic';
+  font-size: 14px;
+  color: #FEFEFE;
+}
+header .content_block p:first-child {
+  margin-bottom: 15px;
+}
+.date_block {
+  position: relative;
+  margin-top: 215px;
+}
+.date_block p {
+  font-family: 'Amazing Grotesk';
+  font-size: 23px;
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  display: inline-block;
+  position: absolute;
+  left: -20px;
+  bottom: 0;
+}
+.mouse {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.mouse img {
+  cursor: pointer;
+}
+/*our_projects*/
+.our_projects {
+  position: relative;
+  z-index: 10;
+  background: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.our_projects h1 {
+  color: rgba(113, 113, 113, 0.2);
+  height: 190px;
+}
+.our_projects .heading_block {
+  position: relative;
+}
+.our_projects .heading_block:before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: url('../img/corner.png') no-repeat;
+  width: 28px;
+  height: 28px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.our_projects .heading_block_wrapper {
+  position: relative;
+  width: 100%;
+  margin-bottom: 60px;
+}
+.our_projects .heading_block_wrapper:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: url('../img/cross.png') no-repeat;
+  width: 53px;
+  height: 53px;
+  right: 0;
+  z-index: 999999999999999;
+  bottom: -10px;
+  right: 60px;
+}
+.our_projects span.desc {
+  font-family: 'Century Gothic';
+  font-size: 14px;
+  color: #444243;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  margin-top: 35px;
+  display: block;
+}
+.our_projects .projects_item a {
+  text-decoration: none;
+}
+.our_projects .projects_item a:hover span {
+  color: #7AC143;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+.our_projects .projects_item img {
+  width: 100%;
+}
+.our_projects p.info {
+  font-family: 'Century Gothic';
+  font-size: 14px;
+  color: #444243;
+}
+.our_projects .content_block {
+  margin-top: 75px;
+}
+.our_projects .date_block {
+  margin-top: 90px;
+}
+/*blog*/
+section.blog {
+  background: url('../img/backgr.png') no-repeat center center;
+  background-size: cover;
+  padding-bottom: 40px;
+  padding-top: 60px;
+}
+section.blog .heading_block_wrapper {
+  margin-bottom: 105px;
+}
+section.blog .heading_block h1 {
+  color: rgba(255, 255, 255, 0.05);
+  margin-left: -40px;
+}
+section.blog .photo_block {
+  float: left;
+}
+section.blog .bl {
+  margin-left: 60px;
+  position: relative;
+}
+section.blog .bl img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  cursor: pointer;
+  z-index: 99;
+}
+section.blog .bl img.t {
+  top: -110px;
+}
+section.blog .bl img.b {
+  bottom: -110px;
+}
+section.blog .num_item {
+  font-family: 'Century Gothic';
+  font-size: 18px;
+  color: #ABF174;
+  margin-bottom: 10px;
+}
+section.blog .desc {
+  font-family: 'Century Gothic';
+  font-size: 18px;
+  color: #FEFEFE;
+}
+section.blog .flex_center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+section.blog .date_block {
+  margin-top: 280px;
+}
+/*news*/
+section.news {
+  padding-bottom: 50px;
+}
+section.news .heading_block_wrapper {
+  position: absolute;
+  top: 45px;
+}
+section.news .heading_block_wrapper .heading_block h1 {
+  color: rgba(113, 113, 113, 0.2);
+}
+section.news .news_img {
+  width: 100%;
+}
+section.news .logo_wrapper {
+  position: relative;
+  margin-left: 30px;
+  padding-top: 60px;
+}
+section.news .logo_wrapper .top_corner {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+section.news .logo_wrapper .bottom_corner {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+section.news .text_block {
+  margin-top: 85px;
+}
+section.news .text_block h5 {
+  font-family: 'Century Gothic Bold';
+  color: #717171;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+section.news .text_block p.info {
+  font-family: 'Century Gothic';
+  color: #717171;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+section.news .text_block .read_more {
+  display: inline-block;
+  border: 1px solid #3D3D54;
+  color: #3D3D54;
+  max-width: 112px;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 60px;
+}
+section.news .date_block {
+  margin-top: 105px;
+}
+/*footer*/
+footer {
+  background: url('../img/backgr_footer.png') no-repeat center center;
+  background-size: cover;
+  background-position: 0px 0px;
+  padding-top: 65px;
+  padding-bottom: 265px;
+}
+footer .heading_block h1 {
+  color: rgba(255, 255, 255, 0.05);
+}
+footer .contact {
+  margin-top: 180px;
+}
+footer .contact p {
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Century Gothic';
+  margin-bottom: 25px;
+}
+footer .contact p:last-child {
+  margin-bottom: 0;
+}
+footer .contact h6 {
+  font-family: 'Century Gothic Bold';
+  color: #7AC143;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+footer .contact form {
+  max-width: 305px;
+}
+footer .contact input {
+  height: 40px;
+  width: 100%;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+  font-family: 'Century Gothic';
+  padding-left: 12px;
+  margin-bottom: 29px;
+}
+footer .contact input::-moz-placeholder {
+  font-family: 'Century Gothic';
+  font-size: 18px;
+  color: #fff;
+  opacity: 1;
+}
+footer .contact input::-webkit-input-placeholder {
+  font-family: 'Century Gothic';
+  font-size: 18px;
+  color: #fff;
+}
+footer .contact input:-ms-input-placeholder {
+  font-family: 'Century Gothic';
+  font-size: 18px;
+  color: #fff;
+}
+footer .contact button {
+  font-family: 'Century Gothic';
+  text-transform: uppercase;
+  font-size: 18px;
+  width: 72px;
+  height: 40px;
+  line-height: 40px;
+  background: #62628F;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.svg_layout {
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 5;
+}
+.bgc_layout {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: all 3s;
+  -o-transition: all 3s;
+  transition: all 3s;
+}
+.bgc_layout img {
+  width: 100%;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.svg2_block {
+  margin-top: 70px;
+}
+.svg_layout2 {
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 5;
+}
+.bgc_layout2 {
+  position: absolute;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: all 3s;
+  -o-transition: all 3s;
+  transition: all 3s;
+}
+.bgc_layout2 img {
+  width: 100%;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+}
+.bgc_layout2 img:first-of-type {
+  display: block;
+}
+.bgc_layout3 {
+  position: absolute;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: all 3s;
+  -o-transition: all 3s;
+  transition: all 3s;
+}
+.bgc_layout3 img {
+  width: 100%;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.bgc_layout3 .fadeImg {
+  position: relative;
+}
+footer {
+  margin-top: 650px;
+}
+@media (min-width: 1366px) and (max-width: 1500px) {
+  header .content_block {
+    margin-top: 0;
+  }
+  .menu_block_wrapper {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 1500px) {
+}
